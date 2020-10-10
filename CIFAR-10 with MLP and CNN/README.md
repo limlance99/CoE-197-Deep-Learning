@@ -15,13 +15,15 @@ In the end, I decided to try something out (for no real reason) and shaped my ML
 Average accuracy: 53.90%
 
 ## CNN
-I decided to use the siamese network that sir Rowel demonstrated on his github to try and make a good CNN model for CIFAR10. I was not able to maximize the epoch size since 
+I decided to use the siamese network that sir Rowel demonstrated on his github to try and make a good CNN model for CIFAR10. I was not able to maximize the epoch size since I was worried my laptop would die (unfortunately). Based on the trend of the loss graphs however (as seen in the notebooks), the train loss does not stagnate (or plateau) as much as it did with MLP, so I assume that if I were to increase the epochs, the accuracy will surely increase over time.
+
+I ended up doing the same normalization process (shrink to a value of in between -1 to 1) for the RGB values because since I thought it led to improved results with MLP, that it would also lead to improved results for the CNN. Here were my three trial run throughs based on the final model.
 
 
 ### Trials (with each trial being 50 epochs each):
-- Trial 1: 59.8%
-- Trial 2: 54.01%
-- Trial 3: 53.5%
+- Trial 1: 58.7%
+- Trial 2: 59.9%
+- Trial 3: 59.8%
 
-Average accuracy: 53.77%
+Average accuracy: 59.47%
 
