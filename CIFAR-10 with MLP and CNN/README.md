@@ -23,7 +23,7 @@ I ended up doing the same normalization process (shrink to a value of in between
 ### Trials (with each trial being 20 epochs each):
 - Trial 1: 58.7%
 - Trial 2: 59.9%
-- Trial 3: 59.8%
+- Trial 3: 59.8% (uploaded in GitHub)
 
 Average accuracy: 59.47%
 
