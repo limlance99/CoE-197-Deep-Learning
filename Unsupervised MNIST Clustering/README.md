@@ -1,10 +1,10 @@
 # Unsupervised MNIST Clustering
 
 
-### I ended up using Sir Rowel Atienza's code for autoencoding MNIST as the base for my autoencoder:
+I ended up using Sir Rowel Atienza's code for autoencoding MNIST as the base for my autoencoder:
 - link: https://github.com/PacktPublishing/Advanced-Deep-Learning-with-Keras/blob/master/chapter3-autoencoders/autoencoder-mnist-3.2.1.py
 
-I used the following general steps for this notebook:
+## I used the following general steps for this notebook:
 1) extracted the encoder from the trained autoencoder
 2) got the "feature vectors" of x_test to be clustered using K-Means Clustering.
 3) Created a bipartite graph by counting the number of occurences of each label on every cluster.
